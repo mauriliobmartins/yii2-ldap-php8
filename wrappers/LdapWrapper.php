@@ -66,13 +66,17 @@ class LdapWrapper extends BaseObject
         }
 
         try {
-            $this->ldapConnection = ldap_connect($this->host, $this->port);
-        } catch (Exception $e) {
+            if ($this->port != '') {
+                $this->ldapConnection = ldap_connect("ldap://{$this->host}:{$this->port}");
+            }
+            $this->ldapConnection = ldap_connect("ldap://{$this->host}");
+									
+        } catch (\Exception $e) {
             throw new LdapException('"' . get_class($this) . '::__construct LDAP: Cannot run ldap_connect: ' . $e->getMessage());
         }
-
+		
         $this->setOptions();
-
+		
         return true;
     }
 
