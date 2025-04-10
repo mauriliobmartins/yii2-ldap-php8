@@ -17,13 +17,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist mauriliobmartins/ldap
+php composer.phar require --prefer-dist mauriliobmartins/yii2-ldap-php8
 ```
 
 or add
 
 ```
-"mauriliobmartins/ldap": "*"
+"mauriliobmartins/yii2-ldap-php8": "*"
 ```
 
 to the require section of your `composer.json` file.
