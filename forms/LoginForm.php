@@ -1,6 +1,6 @@
 <?php
 
-namespace kosoukhov\ldap\forms;
+namespace mauriliobmartins\ldap\forms;
 
 use Yii;
 use yii\base\Model;
@@ -8,7 +8,7 @@ use yii\base\Model;
 /**
  * Class LoginForm
  *
- * @package kosoukhov\ldap\forms
+ * @package mauriliobmartins\ldap\forms
  * @author Kosoukhov V.E.
  */
 class LoginForm extends Model

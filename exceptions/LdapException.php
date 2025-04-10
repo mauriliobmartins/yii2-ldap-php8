@@ -1,6 +1,6 @@
 <?php
 
-namespace kosoukhov\ldap\exceptions;
+namespace mauriliobmartins\ldap\exceptions;
 
 use yii\base\Exception;
 
@@ -8,7 +8,7 @@ use yii\base\Exception;
 /**
  * Class LdapException
  *
- * @package kosoukhov\ldap\exceptions
+ * @package mauriliobmartins\ldap\exceptions
  * @author Kosoukhov V.E.
  */
 class LdapException extends Exception

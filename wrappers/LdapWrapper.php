@@ -1,12 +1,12 @@
 <?php
 
-namespace kosoukhov\ldap\wrappers;
+namespace mauriliobmartins\ldap\wrappers;
 
 define(LDAP_OPT_DIAGNOSTIC_MESSAGE, 0x0032);
 
 use yii\base\BaseObject;
-use kosoukhov\ldap\exceptions\LdapException;
-use kosoukhov\ldap\forms\LoginForm;
+use mauriliobmartins\ldap\exceptions\LdapException;
+use mauriliobmartins\ldap\forms\LoginForm;
 
 /**
  * Wrapper for LDAP

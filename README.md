@@ -4,10 +4,10 @@ Yii2 extension for LDAP
 Authorize, search users, get user groups and other from LDAP
 
 [![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
-[![Latest Stable Version](https://poser.pugx.org/kosoukhov/ldap/v/stable)](https://packagist.org/packages/kosoukhov/ldap)
-[![Total Downloads](https://poser.pugx.org/kosoukhov/ldap/downloads)](https://packagist.org/packages/kosoukhov/ldap)
-[![Latest Unstable Version](https://poser.pugx.org/kosoukhov/ldap/v/unstable)](https://packagist.org/packages/kosoukhov/ldap)
-[![License](https://poser.pugx.org/kosoukhov/ldap/license)](https://packagist.org/packages/kosoukhov/ldap)
+[![Latest Stable Version](https://poser.pugx.org/mauriliobmartins/ldap/v/stable)](https://packagist.org/packages/mauriliobmartins/ldap)
+[![Total Downloads](https://poser.pugx.org/mauriliobmartins/ldap/downloads)](https://packagist.org/packages/mauriliobmartins/ldap)
+[![Latest Unstable Version](https://poser.pugx.org/mauriliobmartins/ldap/v/unstable)](https://packagist.org/packages/mauriliobmartins/ldap)
+[![License](https://poser.pugx.org/mauriliobmartins/ldap/license)](https://packagist.org/packages/mauriliobmartins/ldap)
 
 Installation
 ------------
@@ -17,13 +17,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist kosoukhov/ldap
+php composer.phar require --prefer-dist mauriliobmartins/ldap
 ```
 
 or add
 
 ```
-"kosoukhov/ldap": "*"
+"mauriliobmartins/ldap": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -35,7 +35,7 @@ In config/main.php add:
 return [
     'components' => [
         'ldap' => [
-            'class' => 'kosoukhov\ldap\Connector',
+            'class' => 'mauriliobmartins\ldap\Connector',
             'useCache' => YII_ENV_DEV ? false : true,
         ],
     ],
@@ -76,7 +76,7 @@ echo Yii::$app->ldap->getUserAttributesBySAMAccountName('SAMAccountName', ['mail
 ```
 
 ```php
-echo kosoukhov\ldap\widgets\UserImage::widget([
+echo mauriliobmartins\ldap\widgets\UserImage::widget([
     'login' => Yii::$app->user->identity->username,
     'options' => [
         'class' => 'img-circle',

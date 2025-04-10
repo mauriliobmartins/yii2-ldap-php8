@@ -1,5 +1,5 @@
 {
-    "name": "mauriliobmartins/yii2-ldap-php8",
+    "name": "mauriliobmartins/ldap",
     "description": "Authorize, search users, get user groups and other from LDAP",
     "version": "1.0.0",
     "type": "yii2-extension",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mauriliobmartins\\yii2-ldap-php8\\": ""
+            "mauriliobmartins\\ldap\\": ""
         }
     }
 

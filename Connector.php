@@ -1,13 +1,13 @@
 <?php
 
-namespace kosoukhov\ldap;
+namespace mauriliobmartins\ldap;
 
 use yii\base\Component;
 use yii\data\ArrayDataProvider;
-use kosoukhov\ldap\forms\LoginForm;
-use kosoukhov\ldap\services\LdapAuth;
-use kosoukhov\ldap\services\LdapSearch;
-use kosoukhov\ldap\wrappers\LdapWrapper;
+use mauriliobmartins\ldap\forms\LoginForm;
+use mauriliobmartins\ldap\services\LdapAuth;
+use mauriliobmartins\ldap\services\LdapSearch;
+use mauriliobmartins\ldap\wrappers\LdapWrapper;
 
 
 /**
@@ -20,7 +20,7 @@ use kosoukhov\ldap\wrappers\LdapWrapper;
  * return [
  *     'components' => [
  *         'ldap' => [
- *             'class' => 'kosoukhov\ldap\Connector',
+ *             'class' => 'mauriliobmartins\ldap\Connector',
  *             'useCache' => YII_ENV_DEV ? false : true,
  *             'host' => 'ldap.example.com',
  *             'port' => '389',
@@ -49,7 +49,7 @@ use kosoukhov\ldap\wrappers\LdapWrapper;
  * ```
  *
  * Usage Widget example:
- * echo kosoukhov\ldap\widgets\UserImage::widget([
+ * echo mauriliobmartins\ldap\widgets\UserImage::widget([
  *      'login' => Yii::$app->user->identity->username,
  *      'options' => [
  *          'class' => 'img-circle',
@@ -58,7 +58,7 @@ use kosoukhov\ldap\wrappers\LdapWrapper;
  * ]);
  *
  * @author Kosoukhov V.E.
- * @package kosoukhov\ldap
+ * @package mauriliobmartins\ldap
  * @since 1.0
  */
 class Connector extends Component

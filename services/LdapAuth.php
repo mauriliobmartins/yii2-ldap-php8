@@ -1,16 +1,16 @@
 <?php
 
-namespace kosoukhov\ldap\services;
+namespace mauriliobmartins\ldap\services;
 
 use yii\base\BaseObject;
-use kosoukhov\ldap\forms\LoginForm;
-use kosoukhov\ldap\wrappers\LdapWrapper;
+use mauriliobmartins\ldap\forms\LoginForm;
+use mauriliobmartins\ldap\wrappers\LdapWrapper;
 
 
 /**
  * Base settings for Auth in LDAP
  *
- * @package kosoukhov\ldap\services
+ * @package mauriliobmartins\ldap\services
  * @author Kosoukhov V.E.
  */
 class LdapAuth extends BaseObject

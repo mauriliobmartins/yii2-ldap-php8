@@ -1,6 +1,6 @@
 <?php
 
-namespace kosoukhov\ldap\wrappers;
+namespace mauriliobmartins\ldap\wrappers;
 
 use yii\base\BaseObject;
 use yii\base\InvalidConfigException;

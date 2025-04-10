@@ -1,16 +1,16 @@
 <?php
 
-namespace kosoukhov\ldap\services;
+namespace mauriliobmartins\ldap\services;
 
 use yii\base\BaseObject;
-use kosoukhov\ldap\wrappers\LdapWrapper;
+use mauriliobmartins\ldap\wrappers\LdapWrapper;
 
 
 /**
  * Search users in LDAP
  *
  * @author Kosoukhov V.E.
- * @package kosoukhov\ldap\services
+ * @package mauriliobmartins\ldap\services
  */
 class LdapSearch extends BaseObject
 {
