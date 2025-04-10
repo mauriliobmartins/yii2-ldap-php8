@@ -1,5 +1,5 @@
 {
-    "name": "mauriliobmartins/ldap",
+    "name": "mauriliobmartins/yii2-ldap-php8",
     "description": "Authorize, search users, get user groups and other from LDAP",
     "version": "1.0.0",
     "type": "yii2-extension",
