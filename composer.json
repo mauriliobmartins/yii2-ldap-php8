@@ -1,9 +1,19 @@
 {
     "name": "mauriliobmartins/yii2-ldap-php8",
-    "description": "Authorize, search users, get user groups and other from LDAP",
+    "description": "Authorize, search users, get user groups and more from LDAP in Yii2",
     "version": "1.0.0",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","ldap","yii2-extension","ldap-authentication","active-directory","user-management","authentication","authorization"],
+    "keywords": [
+        "yii2",
+        "extension",
+        "ldap",
+        "yii2-extension",
+        "ldap-authentication",
+        "active-directory",
+        "user-management",
+        "authentication",
+        "authorization"
+    ],
     "license": "MIT",
     "support": {
         "issues": "https://github.com/mauriliobmartins/yii2-ldap-php8/issues",
@@ -16,12 +26,11 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "2.0.*"
+        "yiisoft/yii2": "~2.0.0"
     },
     "autoload": {
         "psr-4": {
             "mauriliobmartins\\ldap\\": ""
         }
     }
-
 }
