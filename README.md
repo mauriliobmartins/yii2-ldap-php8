@@ -18,7 +18,7 @@ The following updates were made in this fork:
 
 This project is licensed under the [MIT License](./LICENSE).
 
-
+---
 
 Authorize, search users, get user groups and other from LDAP
 
