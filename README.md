@@ -1,5 +1,24 @@
-Yii2 extension for LDAP
-=======================
+# Yii2 extension for LDAP - PHP 8 Compatible Fork
+---
+This is a **fork** of the original package created by [Vadim E. Kosoukhov](https://github.com/original-author), updated to be compatible with **PHP 8**.
+
+## 📦 About
+
+The original package was no longer maintained and did not support PHP 8. This fork updates the codebase to ensure full compatibility with modern PHP versions, while preserving the functionality and spirit of the original implementation.
+
+## ✅ Modifications
+
+The following updates were made in this fork:
+
+- Updated syntax to support PHP 8
+- Replaced deprecated functions and features
+- Basic testing for PHP 8 compatibility
+
+## ⚖ License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+
 
 Authorize, search users, get user groups and other from LDAP
 
