@@ -1,6 +1,6 @@
 # Yii2 extension for LDAP - PHP 8 Compatible Fork
 ---
-This is a **fork** of the original package created by [Vadim E. Kosoukhov]([https://github.com/original-author](https://github.com/kosoukhov/yii2-ldap), updated to be compatible with **PHP 8**.
+This is a **fork** of the original package created by [Vadim E. Kosoukhov]([[https://github.com/original-author](https://github.com/kosoukhov/yii2-ldap)]), updated to be compatible with **PHP 8**.
 
 ## 📦 About
 
